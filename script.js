@@ -7,8 +7,8 @@ const blogPosts = [
         author: "Cherise Osambo",
         date: "January, 2026",
         category: "spotlight",
-        image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-        link: "posts/cherise-journey.html",
+        image: "https://i.pinimg.com/736x/b7/64/1d/b7641d37ab1f81e6bd5107e13d9724fa.jpg",
+        link: "https://osambocherise.github.io/CheriseJourney/",
         linkedin: "https://www.linkedin.com/in/cherise-o-435b64282"
     },
     {
@@ -16,22 +16,11 @@ const blogPosts = [
         title: "Recap:First Night of Code Event",
         excerpt: "Laughter and keystrokes blended into a working prototype for a local clinic.See what potential our members will build in just one night...",
         author: "Cherise O.",
-        date: "December , 2025",
+        date: "October , 2025",
         category: "event",
         image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
         link: "#",
         linkedin: "https://www.linkedin.com/posts/activity-7381983776056356864-JTTv?utm_source=share&utm_medium=member_desktop&rcm=ACoAAETe52kBYuUJ4RrZrjxpKJYzhiO7AXU65LE"
-    },
-    {
-        id: 5,
-        title: "Cybersecurity Workshop: Hands-on Training Recap",
-        excerpt: "Highlights from our latest hands-on cybersecurity workshop where members practiced real-world security scenarios.",
-        author: "Training Team",
-        date: "November, 2025",
-        category: "event",
-        image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-        link: "#",
-        linkedin: "https://www.linkedin.com/company/cybershe"
     },
     {
         id: 6,
@@ -170,4 +159,5 @@ document.head.appendChild(style);
 // Initialize with all posts
 document.addEventListener('DOMContentLoaded', () => {
     renderPosts(blogPosts);
+
 });
